@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/gainsmax/public_html/energie.gainsmax.net/
+    - /bin/cp src $DEPLOYPATH
+    - /bin/cp .git $DEPLOYPATH
+    - /bin/cp .bolt $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    
