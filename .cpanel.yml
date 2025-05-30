@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/gainsmax/public_html/energie.gainsmax.net/
-    - /bin cp * $DEPLOYPATH #copy all from root 
+    - /bin cp * $DEPLOYPATH
